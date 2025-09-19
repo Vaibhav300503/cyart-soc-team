@@ -1,0 +1,5 @@
+Alert ID,Type,Priority,MITRE Tactic
+001,Phishing,High,T1566
+002,Brute-force SSH,Medium,T1110
+003,Log4Shell Exploit,Critical,T1190
+004,Port Scan,Low,TA0043
