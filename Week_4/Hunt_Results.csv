@@ -1,0 +1,3 @@
+Timestamp,User,Event ID,Notes,MITRE_Technique
+2025-08-18 15:00:00,testuser,4672,Unexpected admin role assignment,T1078
+2025-08-18 15:05:00,svc_backup,4672,Privilege assigned outside schedule,T1078
