@@ -1,0 +1,3 @@
+Author: CYART SOC Team Member
+Submission Date: 2025-10-06
+Tools Used: ReportLab for PDF generation, Theoretical SOC Frameworks
