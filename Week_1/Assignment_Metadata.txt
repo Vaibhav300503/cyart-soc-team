@@ -1,3 +1,0 @@
-Author: Vaibhav Deep Singh
-Submission Date: 2025-09-06
-Tools Used: ReportLab for PDF generation, Theoretical SOC Frameworks
