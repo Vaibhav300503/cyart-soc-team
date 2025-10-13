@@ -1,4 +1,0 @@
-IOC,Type,Source,Reputation,First Seen,Last Seen
-172.17.0.1,IP,Internal,Benign,2025-10-13,2025-10-13
-malicious.com,Domain,Suricata,Malicious,2025-10-13,2025-10-13
-UNION SELECT,Pattern,Suricata,Suspicious,2025-10-13,2025-10-13

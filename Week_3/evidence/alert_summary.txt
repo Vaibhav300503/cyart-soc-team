@@ -1,3 +1,0 @@
-=== WEEK 3 ALERT SUMMARY ===
-      1  [1:2000003:1] WEEK3 - SQLi Single Quote %27 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38172 -> 172.17.0.3:80
-      1  [1:2000004:1] WEEK3 - SQLi Comment -- [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38172 -> 172.17.0.3:80

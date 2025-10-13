@@ -1,4 +1,0 @@
-Timestamp,Event Type,Source IP,Destination IP,Description
-$(date -Iseconds),Suricata Alert,172.17.0.1,172.17.0.3,SQLi UNION SELECT detected
-$(date -Iseconds),Web Access,172.17.0.1,172.17.0.3,DVWA SQLi page accessed
-$(date -Iseconds),Network Traffic,172.17.0.1,8.8.8.8,Suspicious DNS query
