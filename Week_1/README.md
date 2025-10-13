@@ -1,8 +1,6 @@
 # Week 1 — SOC Fundamentals and Operations  
 
 **Author:** Vaibhav Deep Singh  
-**Date:** $(date +"%d %b %Y")  
-
 ---
 
 ## 🎯 Objective
