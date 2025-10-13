@@ -1,0 +1,20 @@
+=== WEEK 2 ALERT SUMMARY ===
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:33246 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:33716 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:34826 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:36928 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38172 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38176 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:40842 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SIMPLE TEST - Any TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:44852 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SUPER TEST - ANY TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:45898 -> 172.17.0.3:80
+      1  [1:1000000:1] WEEK2 - SUPER TEST - ANY TCP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:55306 -> 172.17.0.3:80
+      3  [1:1000001:1] WEEK2 - ANY HTTP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:45898 -> 172.17.0.3:80
+      3  [1:1000001:1] WEEK2 - ANY HTTP to port 80 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:55306 -> 172.17.0.3:80
+      1  [1:2000002:1] WEEK2 - SQLi UNION+SELECT Attack [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38172 -> 172.17.0.3:80
+      1  [1:2000003:1] WEEK2 - SQLi Single Quote %27 [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38172 -> 172.17.0.3:80
+      3  [1:2000004:1] WEEK2 - Login Page Access [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:40842 -> 172.17.0.3:80
+      1  [1:2000004:1] WEEK2 - SQLi Comment -- [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38172 -> 172.17.0.3:80
+      1  [1:2000005:1] WEEK2 - Suspicious UA Masscan [**] [Classification: (null)] [Priority: 3] {TCP} 172.17.0.1:38176 -> 172.17.0.3:80
+
+Total WEEK2 alerts: 23
