@@ -1,0 +1,14 @@
+Executive Summary
+On September 29, 2025, a comprehensive Security Operations Center (SOC) capstone exercise was conducted to demonstrate end-to-end incident response capabilities. The exercise simulated a real-world Samba exploitation attack using Metasploit against a Metasploitable2 training system, followed by complete detection, analysis, containment, and reporting workflows.
+The attack was successfully detected within one second through network-based monitoring (PCAP capture and Wazuh Agent 007). A TheHive case was created for incident tracking, and automated response was implemented via CrowdSec IP blocking. The entire incident lifecycle from initial compromise to full containment was completed in 72.75 minutes, demonstrating response capabilities significantly exceeding industry benchmarks.
+This exercise successfully integrated multiple SOC tools and methodologies including SIEM analysis, case management, SOAR automation, root cause analysis, and executive reporting. All phases were documented with proper chain-of-custody procedures, resulting in a comprehensive evidence package suitable for forensic review.
+Date: September 29, 2025 
+Attack simulated: Samba exploitation (T1210) 
+Detection time: <1 second (vs industry avg 280s) 
+Response time: 72.75 minutes (vs industry avg 73.5 days) 
+100% detection rate, 0 false positives 
+SOAR automation: CrowdSec IP blocking 
+Case tracking: TheHive Case #3 
+Critical gap identified: lack of network segmentation 
+Conclusion: SOC exercise demonstrated world-class detection and response with actionable 
+recommendations for strengthening training lab security.

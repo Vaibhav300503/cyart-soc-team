@@ -1,0 +1,23 @@
+Capstone SOC Project Report
+Executive Summary
+On October 5, 2025, a comprehensive Security Operations Center (SOC) capstone exercise was conducted to demonstrate end-to-end incident response capabilities. The exercise simulated a real-world Samba exploitation attack using Metasploit against a Metasploitable2 training system, followed by complete detection, analysis, containment, and reporting workflows.
+The attack was successfully detected within one second through network-based monitoring (PCAP capture and Wazuh Agent 007). A TheHive case was created for incident tracking, and automated response was implemented via CrowdSec IP blocking. The entire incident lifecycle from initial compromise to full containment was completed in 72.75 minutes, demonstrating response capabilities significantly exceeding industry benchmarks.
+This exercise successfully integrated multiple SOC tools and methodologies including SIEM analysis, case management, SOAR automation, root cause analysis, and executive reporting. All phases were documented with proper chain-of-custody procedures, resulting in a comprehensive evidence package suitable for forensic review.
+ 
+Attack Simulation (Phase 1)
+Objective: Execute a controlled exploitation to generate authentic incident data
+Execution:
+    • Attack vector: Metasploit Framework multi/samba/usermap_script exploit
+    • MITRE ATT&CK Technique: T1210 (Exploitation of Remote Services)
+    • Attacker system: Kali Linux 
+    • Target system: Metasploitable2 
+    • Attack timestamp: 13:30:54
+Results:
+    • Successful exploitation achieved root shell access (uid=0, gid=0)
+    • Reverse shell established via netcat on port 4444
+    • Malicious processes spawned: PIDs 4878 (netcat), 4879 (shell)
+    • Reconnaissance commands executed: id, whoami, uname, ifconfig, ps aux, netstat
+Evidence Collected:
+    • Complete Metasploit console output
+    • Process listing showing malicious activity
+    • Network connection data
